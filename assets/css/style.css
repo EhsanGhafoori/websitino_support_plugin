@@ -1,0 +1,29 @@
+body.rtl {
+    font-family: IRANSansWeb_Medium;
+}
+
+.iranyekanwebbold {
+    font-family: iranyekanwebbold !important;
+    font-weight: 800 !important;
+}
+
+.iranyekanwebmedium {
+    font-family: iranyekanwebmedium !important;
+}
+
+.IRANSansWeb_Bold {
+    font-family: IRANSansWeb_Bold !important;
+}
+
+@font-face {
+	font-family: IRANYekanWebExtraBlack;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/IRANYekanWebExtraBlack.eot');
+	src: url('../fonts/eot/IRANYekanWebExtraBlack?#iefix') format('embedded-opentype');
+}
+
+
+.IRANYekanWebExtraBlack {
+    font-family: IRANYekanWebExtraBlack !important;
+}
