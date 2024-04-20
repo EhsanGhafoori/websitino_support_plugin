@@ -2,7 +2,7 @@
 
 function menuWebsitino()
 {
-	add_menu_page(_e('Websitino', 'websitino'), _e('Websitino', 'websitino'), 'manage_options', 'websitino', 'websitino_menu_main_page', plugin_dir_url(__DIR__) . 'assets/img/websitino 20x20_white_stroke.png');
+	add_menu_page( __('Websitino1', 'websitino'), __('Websitino2', 'websitino'), 'manage_options', 'websitino', 'websitino_menu_main_page', plugin_dir_url(__DIR__) . 'assets/img/websitino 20x20_white_stroke.png');
 }
 add_action('admin_menu', 'menuWebsitino');
 
@@ -21,14 +21,14 @@ function websitino_menu_main_page()
 
 
 	//  echo plugin_basename(dirname(__FILE__, 3)) . "/websitino/languages/" ;
+?>
 
 
-	echo ('
 
 <div clas="wrap ">
-	<h2 class="mt-4 IRANSansWeb_Bold" style="margin-bottom:8px; font-size: 50px; ">'); 
-	_e('Websitino', 'websitino');
-	echo (' </h2>
+	<h2 class="mt-4 IRANSansWeb_Bold" style="margin-bottom:8px; font-size: 50px; ">
+	<?php _e('Websitino3', 'websitino') ?>
+	 </h2>
 
 	<div class="wrap" style="  padding: 2px; background-color: #A7F590; /* Green */ color: white; margin-bottom: 15px;"> </div>
 
@@ -36,8 +36,7 @@ function websitino_menu_main_page()
 
 <div class="container px-4 py-5" id="featured-3">
 	<h2 class="pb-2 border-bottom iranyekanwebmedium">
-		با نصب پلاگین وبسایتینو به راحتی میتوانید از امکانات زیر بهره مند شوید:
-
+<?php _e('By installing a website plugin, you can easily benefit from the following features:', 'websitino'); ?>
 	</h2>
 	<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 		<div class="feature col">
@@ -50,10 +49,10 @@ function websitino_menu_main_page()
 
 			</div>
 			<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
-				درخواست پشتیبانی آنلاین
+			<?php _e('Request online support', 'websitino') ?>	
 			</h3>
 			<p>
-				در آخرین نسخه پلاگین وبسایتینو قابلیت چت آنلاین اضافه شده که میتوانید به صورت مستقیم درخواست پشتیبانی خود را ارسال نمایید.
+			<?php _e('In the latest version of the website plugin, an online chat feature has been added so that you can send your support request directly.', 'websitino') ?>	
 			</p>
 
 		</div>
@@ -68,9 +67,12 @@ function websitino_menu_main_page()
 					<path d="M4.81 1.37A6.5 6.5 0 0 1 14.56 7a.5.5 0 1 1-1 0 5.5 5.5 0 0 0-8.25-4.765.5.5 0 0 1-.5-.865Zm-.89 1.257a.5.5 0 0 1 .04.706A5.478 5.478 0 0 0 2.56 7a.5.5 0 0 1-1 0c0-1.664.626-3.184 1.655-4.333a.5.5 0 0 1 .706-.04ZM1.915 8.02a.5.5 0 0 1 .346.616l-.779 2.767a.5.5 0 1 1-.962-.27l.778-2.767a.5.5 0 0 1 .617-.346Zm12.15.481a.5.5 0 0 1 .49.51c-.03 1.499-.161 3.025-.727 4.533l-.07.187a.5.5 0 0 1-.936-.351l.07-.187c.506-1.35.634-2.74.663-4.202a.5.5 0 0 1 .51-.49" />
 				</svg>
 			</div>
-			<h3 class="fs-2 iranyekanwebbold text-body-emphasis">تامین امنیت</h3>
+			<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
+			<?php _e('Supply Security', 'websitino') ?>	
+
+			</h3>
 			<p>
-				کد گذاری فابل های مهم، تغییر صفحه اصلی ورود سایت به آدرس یونیک ، ویرایش فایل های HTACCESS.
+			<?php _e('Coding important fables, changing the home page of the site to a unique address, editing HTACCESS files.', 'websitino') ?>	
 			</p>
 
 		</div>
@@ -81,9 +83,11 @@ function websitino_menu_main_page()
 					<path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
 				</svg>
 			</div>
-			<h3 class="fs-2 iranyekanwebbold text-body-emphasis">بوت استرپ</h3>
+			<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
+			<?php _e('Bootstrap', 'websitino') ?>
+			</h3>
 			<p>
-				آخرین ورژن از بوت استرپ برای شما در دسترس است و نیازی به هیچ افزونه دیگری ندارید .
+			<?php _e('The latest version of Bootstrap is available for you and you don\'t need any other plugins.', 'websitino') ?>
 			</p>
 
 		</div>
@@ -98,10 +102,10 @@ function websitino_menu_main_page()
 				</svg>
 			</div>
 			<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
-			فونت اختصاصی
+			<?php _e('Dedicated font', 'websitino') ?> 
  		</h3>
 			<p>
-				فونت های اختصاصی که بسیار شیک و جذاب هستند را با لایسنس قانونی در اختیار شما عزیزان قرار می دهیم .
+			<?php _e('We provide exclusive fonts that are very stylish and attractive to you with a legal license.', 'websitino') ?>	
 			</p>
 
 		</div>
@@ -115,9 +119,11 @@ function websitino_menu_main_page()
 					<path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
 				</svg>
 			</div>
-			<h3 class="fs-2 iranyekanwebbold text-body-emphasis">فرم لاگین جذاب</h3>
+			<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
+			<?php _e('Attractive login form', 'websitino') ?> 
+			</h3>
 			<p>
-				بعد از نصب افزونه وبسایتینو شما از فرم ورود بسیار جذاب با طراحی سایت خودتان برخوردار خواهید شد.
+			<?php _e('After installing the Websitino plugin, you will have a very attractive login form with your own website design.', 'websitino') ?> 
 			</p>
 
 		</div>
@@ -127,7 +133,7 @@ function websitino_menu_main_page()
 			<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
 		</svg>
 
-		این پلاگین با حجم بسیار پایین (زیر 1 مگابایت)، سرعتی بسیار بالا و هماهنگ با جدیدترین نسخه وردپرس عرضه شده است.
+		<?php _e('This plugin has a very low size (below 1 MB), a very high speed and is compatible with the latest version of WordPress.', 'websitino') ?> 
 	</p>
 	<script type="text/javascript">
 		! function() {
@@ -146,5 +152,7 @@ function websitino_menu_main_page()
 		}();
 	</script>
 </div>
-	');
+
+
+	<?php
 }

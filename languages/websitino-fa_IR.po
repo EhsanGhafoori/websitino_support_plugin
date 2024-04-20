@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Websitino\n"
-"POT-Creation-Date: 2024-04-20 20:59+0400\n"
-"PO-Revision-Date: 2024-04-20 21:00+0400\n"
+"POT-Creation-Date: 2024-04-20 23:26+0400\n"
+"PO-Revision-Date: 2024-04-20 23:26+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -20,6 +20,93 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: dir/first-page.php:5
+msgid "Websitino1"
+msgstr "وبسایتینو"
+
+#: dir/first-page.php:5
+msgid "Websitino2"
+msgstr "وبسایتینو"
+
+#: dir/first-page.php:30
+msgid "Websitino3"
+msgstr "وبسایتینو"
+
+#: dir/first-page.php:39
+msgid ""
+"By installing a website plugin, you can easily benefit from the following "
+"features:"
+msgstr ""
+"با نصب پلاگین وبسایتینو به راحتی می توانید از امکانات زیر بهره مند شوید:"
+
+#: dir/first-page.php:52
+msgid "Request online support"
+msgstr "درخواست پشتیبانی آنلاین"
+
+#: dir/first-page.php:55
+msgid ""
+"In the latest version of the website plugin, an online chat feature has been "
+"added so that you can send your support request directly."
+msgstr ""
+"در آخرین نسخه پلاگین وبسایتینو قابلیت چت آنلاین اضافه شده که میتوانید به "
+"صورت مستقیم درخواست پشتیبانی خود را ارسال نمایید."
+
+#: dir/first-page.php:71
+msgid "Supply Security"
+msgstr " تامین امنیت"
+
+#: dir/first-page.php:75
+msgid ""
+"Coding important fables, changing the home page of the site to a unique "
+"address, editing HTACCESS files."
+msgstr ""
+"کد گذاری فابل های مهم، تغییر صفحه اصلی ورود سایت به آدرس یونیک ، ویرایش فایل "
+"های HTACCESS."
+
+#: dir/first-page.php:87
+msgid "Bootstrap"
+msgstr " بوت استرپ"
+
+#: dir/first-page.php:90
+msgid ""
+"The latest version of Bootstrap is available for you and you don't need any "
+"other plugins."
+msgstr ""
+"آخرین ورژن از بوت استرپ برای شما در دسترس است و نیازی به هیچ افزونه دیگری "
+"ندارید ."
+
+#: dir/first-page.php:105
+msgid "Dedicated font"
+msgstr "فونت اختصاصی"
+
+#: dir/first-page.php:108
+msgid ""
+"We provide exclusive fonts that are very stylish and attractive to you with "
+"a legal license."
+msgstr ""
+"فونت های اختصاصی که بسیار شیک و جذاب هستند را با لایسنس قانونی در اختیار شما "
+"عزیزان قرار می دهیم ."
+
+#: dir/first-page.php:123
+msgid "Attractive login form"
+msgstr "فرم لاگین جذاب"
+
+#: dir/first-page.php:126
+msgid ""
+"After installing the Websitino plugin, you will have a very attractive login "
+"form with your own website design."
+msgstr ""
+"بعد از نصب افزونه وبسایتینو شما از فرم ورود بسیار جذاب با طراحی سایت خودتان "
+"برخوردار خواهید شد."
+
+#: dir/first-page.php:136
+msgid ""
+"This plugin has a very low size (below 1 MB), a very high speed and is "
+"compatible with the latest version of WordPress."
+msgstr ""
+"این پلاگین با حجم بسیار پایین (زیر 1 مگابایت)، سرعت بسیار بالا و هماهنگ با "
+"جدیدترین نسخه وردپرس عرضه شده است."
 
 #. Plugin Name of the plugin/theme
 msgid "Websitino"
@@ -46,9 +133,6 @@ msgstr "احسان غفوری"
 #. Author URI of the plugin/theme
 msgid "https://www.websitino.com/"
 msgstr ""
-
-#~ msgid "Dedicated Font"
-#~ msgstr "سبیلستایل"
 
 #~ msgid "mymessage1"
 #~ msgstr "لیباتلبیا"
