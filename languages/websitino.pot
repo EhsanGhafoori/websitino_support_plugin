@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: websitino\n"
-"POT-Creation-Date: 2024-04-20 23:02+0400\n"
+"POT-Creation-Date: 2024-04-20 23:41+0400\n"
 "PO-Revision-Date: 2024-04-20 17:32+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -21,8 +21,86 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
+#: dir/first-page.php:5
+msgid "Websitino1"
+msgstr ""
+
+#: dir/first-page.php:5
+msgid "Websitino2"
+msgstr ""
+
+#: dir/first-page.php:30
+msgid "Websitino3"
+msgstr ""
+
+#: dir/first-page.php:39
+msgid ""
+"By installing a website plugin, you can easily benefit from the following "
+"features:"
+msgstr ""
+
+#: dir/first-page.php:52
+msgid "Request online support"
+msgstr ""
+
+#: dir/first-page.php:55
+msgid ""
+"In the latest version of the website plugin, an online chat feature has "
+"been added so that you can send your support request directly."
+msgstr ""
+
+#: dir/first-page.php:71
+msgid "Supply Security"
+msgstr ""
+
+#: dir/first-page.php:75
+msgid ""
+"Coding important fables, changing the home page of the site to a unique "
+"address, editing HTACCESS files."
+msgstr ""
+
+#: dir/first-page.php:87
+msgid "Bootstrap"
+msgstr ""
+
+#: dir/first-page.php:90
+msgid ""
+"The latest version of Bootstrap is available for you and you don't need "
+"any other plugins."
+msgstr ""
+
+#: dir/first-page.php:105
+msgid "Dedicated font"
+msgstr ""
+
+#: dir/first-page.php:108
+msgid ""
+"We provide exclusive fonts that are very stylish and attractive to you "
+"with a legal license."
+msgstr ""
+
+#: dir/first-page.php:123
+msgid "Attractive login form"
+msgstr ""
+
+#: dir/first-page.php:126
+msgid ""
+"After installing the Websitino plugin, you will have a very attractive "
+"login form with your own website design."
+msgstr ""
+
+#: dir/first-page.php:136
+msgid ""
+"This plugin has a very low size (below 1 MB), a very high speed and is "
+"compatible with the latest version of WordPress."
+msgstr ""
+
+#: dir/websitino.php:22
+msgid "Thank you for creating with"
+msgstr ""
+
 #. Plugin Name of the plugin/theme
-#: dir/first-page.php:5 dir/first-page.php:30
+#: dir/websitino.php:23
 msgid "Websitino"
 msgstr ""
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Websitino\n"
-"POT-Creation-Date: 2024-04-20 23:26+0400\n"
-"PO-Revision-Date: 2024-04-20 23:26+0400\n"
+"POT-Creation-Date: 2024-04-20 23:42+0400\n"
+"PO-Revision-Date: 2024-04-20 23:42+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -54,7 +54,7 @@ msgstr ""
 
 #: dir/first-page.php:71
 msgid "Supply Security"
-msgstr " تامین امنیت"
+msgstr "تامین امنیت"
 
 #: dir/first-page.php:75
 msgid ""
@@ -66,7 +66,7 @@ msgstr ""
 
 #: dir/first-page.php:87
 msgid "Bootstrap"
-msgstr " بوت استرپ"
+msgstr "بوت استرپ"
 
 #: dir/first-page.php:90
 msgid ""
@@ -108,7 +108,12 @@ msgstr ""
 "این پلاگین با حجم بسیار پایین (زیر 1 مگابایت)، سرعت بسیار بالا و هماهنگ با "
 "جدیدترین نسخه وردپرس عرضه شده است."
 
+#: dir/websitino.php:22
+msgid "Thank you for creating with"
+msgstr "سپاسگزاریم از اینکه سایت خود را ساخته اید با"
+
 #. Plugin Name of the plugin/theme
+#: dir/websitino.php:23
 msgid "Websitino"
 msgstr "وبسایتینو"
 
