@@ -2,7 +2,7 @@
 
 function menuWebsitino()
 {
-	add_menu_page( __('Websitino1', 'websitino'), __('Websitino2', 'websitino'), 'manage_options', 'websitino', 'websitino_menu_main_page', plugin_dir_url(__DIR__) . 'assets/img/websitino 20x20_white_stroke.png');
+	add_menu_page( __('Websitino', 'websitino'), __('Websitino', 'websitino'), 'manage_options', 'websitino', 'websitino_menu_main_page', plugin_dir_url(__DIR__) . 'assets/img/websitino 20x20_white_stroke.png');
 }
 add_action('admin_menu', 'menuWebsitino');
 
@@ -27,7 +27,7 @@ function websitino_menu_main_page()
 
 <div clas="wrap ">
 	<h2 class="mt-4 IRANSansWeb_Bold" style="margin-bottom:8px; font-size: 50px; ">
-	<?php _e('Websitino3', 'websitino') ?>
+	<?php _e('Websitino', 'websitino') ?>
 	 </h2>
 
 	<div class="wrap" style="  padding: 2px; background-color: #A7F590; /* Green */ color: white; margin-bottom: 15px;"> </div>
