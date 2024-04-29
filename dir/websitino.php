@@ -18,10 +18,22 @@ add_action('admin_head', 'websitino_custom_css');
 function websitino_remove_admin_footer()
 {
 ?>
+	<style>
+		@font-face {
+			font-family: Righteous-Regular;
+			font-style: normal;
+			font-weight: 500;
+			src: url('/wp-content/plugins/websitino_support_plugin-main/assets/fonts/ttf/Righteous-Regular.ttf');
+			src: url('/wp-content/plugins/websitino_support_plugin-main/assets/fonts/ttf/Righteous-Regular?#iefix') format('embedded-opentype');
+		}
+
+		.Righteous-Regular {
+			font-family: Righteous-Regular !important;
+		}
+	</style>
 	<span id="footer-websitino-th">
 		<?php _e("Thank you for creating with", "websitino") ?>
-		<a href="https://websitino.com/"><?php _e("Websitino", "websitino") ?></a>
-		.
+		<a style="color: #000; font-family:Righteous-Regular ; text-decoration:none;" target="_blank" href="https://websitino.com/"><?php _e("Websitino", "websitino") ?></a>.
 	</span>
 
 <?php
