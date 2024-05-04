@@ -29,7 +29,7 @@ require_once plugin_dir_path( __FILE__ ) . "dir/websitinu.php";
      function load_text_domain()
 {
 	// load_plugin_textdomain('websitinu', false, '\lang');
-$aa = load_plugin_textdomain( 'websitinu', false, plugin_basename(dirname(__FILE__, 3)) . "/websitino_support_plugin/languages/" );
+$aa = load_plugin_textdomain( 'websitinu', false, plugin_basename(dirname(__FILE__, 3)) . "/websitinu_support_plugin/languages/" );
 var_dump($aa);
 
 };
