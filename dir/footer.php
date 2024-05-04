@@ -3,7 +3,7 @@
 // footer
 
 
-function websitino_footer_first_page()
+function websitinu_footer_first_page()
 {
 
     if (get_bloginfo("language") == 'en-US') {
@@ -14,8 +14,8 @@ function websitino_footer_first_page()
 	font-family: Righteous-Regular;
 	font-style: normal;
 	font-weight: 500;
-	src: url('/wp-content/plugins/websitino_support_plugin-main/assets/fonts/ttf/Righteous-Regular.ttf');
-	src: url('/wp-content/plugins/websitino_support_plugin-main/assets/fonts/ttf/Righteous-Regular?#iefix') format('embedded-opentype');
+	src: url('/wp-content/plugins/websitinu_support_plugin-main/assets/fonts/ttf/Righteous-Regular.ttf');
+	src: url('/wp-content/plugins/websitinu_support_plugin-main/assets/fonts/ttf/Righteous-Regular?#iefix') format('embedded-opentype');
 }
 
 .Righteous-Regular {
@@ -66,5 +66,5 @@ function websitino_footer_first_page()
 <?php
     }
 }
-add_action('wp_footer', 'websitino_footer_first_page');
+add_action('wp_footer', 'websitinu_footer_first_page');
 ?>

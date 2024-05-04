@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: websitinu\n"
-"POT-Creation-Date: 2024-04-20 23:41+0400\n"
+"POT-Creation-Date: 2024-05-04 16:17+0400\n"
 "PO-Revision-Date: 2024-04-20 17:32+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -21,10 +21,10 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: dir/first-page.php:5
-msgid "websitinu"
+#. Plugin Name of the plugin/theme
+#: dir/first-page.php:5 dir/first-page.php:30 dir/websitinu.php:36
+msgid "Websitinu"
 msgstr ""
-
 
 #: dir/first-page.php:39
 msgid ""
@@ -88,13 +88,8 @@ msgid ""
 "compatible with the latest version of WordPress."
 msgstr ""
 
-#: dir/websitinu.php:22
+#: dir/websitinu.php:35
 msgid "Thank you for creating with"
-msgstr ""
-
-#. Plugin Name of the plugin/theme
-#: dir/websitinu.php:23
-msgid "Websitinu"
 msgstr ""
 
 #. Plugin URI of the plugin/theme

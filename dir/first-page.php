@@ -2,7 +2,7 @@
 
 function menuWebsitino()
 {
-	add_menu_page(__('Websitinu', 'websitinu'), __('Websitinu', 'websitinu'), 'manage_options', 'websitinu', 'websitino_menu_main_page', plugin_dir_url(__DIR__) . 'assets/img/websitinu 20x20_white_stroke.png');
+	add_menu_page(__('Websitinu', 'websitinu'), __('Websitinu', 'websitinu'), 'manage_options', 'websitinu', 'websitinu_menu_main_page', plugin_dir_url(__DIR__) . 'assets/img/websitinu_20x20_white_stroke.png');
 }
 add_action('admin_menu', 'menuWebsitino');
 
@@ -16,7 +16,7 @@ add_action('admin_menu', 'menuWebsitino');
 //  add_action('plugins_loaded', 'load_text_domain');
 
 
-function websitino_menu_main_page()
+function websitinu_menu_main_page()
 {
 	// echo $lang=get_bloginfo("language"); 
 

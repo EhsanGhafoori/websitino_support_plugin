@@ -1,10 +1,10 @@
 <?php
-function websitino_theme_styles_Login()  
+function websitinu_theme_styles_Login()  
 { 
 	wp_enqueue_style( 'websitinoStyleLogin', plugin_dir_url(__DIR__) . 'assets/css/loginStyle.css' );
 
 }
-add_action( 'login_enqueue_scripts', 'websitino_theme_styles_Login', 10 );
+add_action( 'login_enqueue_scripts', 'websitinu_theme_styles_Login', 10 );
 
 function my_login_logo()
 { ?>
