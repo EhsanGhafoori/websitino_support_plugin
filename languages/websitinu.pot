@@ -22,16 +22,9 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: dir/first-page.php:5
-msgid "Websitino1"
+msgid "websitinu"
 msgstr ""
 
-#: dir/first-page.php:5
-msgid "Websitino2"
-msgstr ""
-
-#: dir/first-page.php:30
-msgid "Websitino3"
-msgstr ""
 
 #: dir/first-page.php:39
 msgid ""
