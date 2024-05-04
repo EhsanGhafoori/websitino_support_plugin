@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Websitinu
  * Description: A comprehensive plugin to support your website and also guarantee the security of WordPress websites with legal Persian fonts (if the plugin is disabled, the security of the website is not guaranteed)
- * Version: 1.0.0.5
+ * Version: 1.0.0.6
  * Plugin URI: https://websitinu.com
  * Author URI: https://www.websitinu.com/
  * Author: Ehsan Ghafoori
