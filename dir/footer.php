@@ -36,8 +36,8 @@ function websitino_footer_first_page()
             </a>
             Created by
             <span style="color: #000; ">
-                <a style="color: #000; font-family:Righteous-Regular ;" href="https://www.websitino.com/" target="_blank" rel="noopener">
-                    Websitino
+                <a style="color: #000; font-family:Righteous-Regular ;" href="https://www.websitinu.com/" target="_blank" rel="noopener">
+                    Websitinu
                 </a>
             </span>
             © 2015
@@ -57,7 +57,7 @@ function websitino_footer_first_page()
 
             طراحی شده توسط
             <span style="color: #000; ">
-                <a style="color: #000;" href="https://www.websitino.com/" target="_blank" rel="noopener">
+                <a style="color: #000;" href="https://www.websitinu.com/" target="_blank" rel="noopener">
                     وبسایتینو
                 </a>
             </span>

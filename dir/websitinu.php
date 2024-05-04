@@ -31,9 +31,9 @@ function websitino_remove_admin_footer()
 			font-family: Righteous-Regular !important;
 		}
 	</style>
-	<span id="footer-websitino-th">
-		<?php _e("Thank you for creating with", "websitino") ?>
-		<a style="color: #000; font-family:Righteous-Regular ; text-decoration:none;" target="_blank" href="https://websitino.com/"><?php _e("Websitino", "websitino") ?></a>.
+	<span id="footer-websitinu-th">
+		<?php _e("Thank you for creating with", "websitinu") ?>
+		<a style="color: #000; font-family:Righteous-Regular ; text-decoration:none;" target="_blank" href="https://websitinu.com/"><?php _e("Websitinu", "websitinu") ?></a>.
 	</span>
 
 <?php

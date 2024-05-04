@@ -27,13 +27,13 @@ add_filter('login_headerurl', 'my_login_logo_url');
 
 function my_login_logo_url_title()
 {
-    return 'Websitino Wordpress';
+    return 'Websitinu Wordpress';
 }
 add_filter('login_headertext', 'my_login_logo_url_title');
     // <style type="text/css">
     //     #login h1 a,
     //     .login h1 a {
-    //         background-image: url(<?php echo get_stylesheet_directory_uri(); /../../plugins/websitino/assets/img/websitino.png);
+    //         background-image: url(<?php echo get_stylesheet_directory_uri(); /../../plugins/websitinu/assets/img/websitinu.png);
     //         height: 100px;
     //         width: 100px;
     //         background-size: 100px 100px;

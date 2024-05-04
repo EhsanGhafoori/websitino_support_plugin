@@ -2,15 +2,15 @@
 
 function menuWebsitino()
 {
-	add_menu_page(__('Websitino', 'websitino'), __('Websitino', 'websitino'), 'manage_options', 'websitino', 'websitino_menu_main_page', plugin_dir_url(__DIR__) . 'assets/img/websitino 20x20_white_stroke.png');
+	add_menu_page(__('Websitinu', 'websitinu'), __('Websitinu', 'websitinu'), 'manage_options', 'websitinu', 'websitino_menu_main_page', plugin_dir_url(__DIR__) . 'assets/img/websitinu 20x20_white_stroke.png');
 }
 add_action('admin_menu', 'menuWebsitino');
 
 
 //      function load_text_domain()
 // {
-// 	// load_plugin_textdomain('websitino', false, '\lang');
-// load_plugin_textdomain( 'websitino', false, plugin_basename(dirname(__FILE__, 3)) . "/websitino/languages/" );
+// 	// load_plugin_textdomain('websitinu', false, '\lang');
+// load_plugin_textdomain( 'websitinu', false, plugin_basename(dirname(__FILE__, 3)) . "/websitinu/languages/" );
 
 // };
 //  add_action('plugins_loaded', 'load_text_domain');
@@ -20,14 +20,14 @@ function websitino_menu_main_page()
 {
 	// echo $lang=get_bloginfo("language"); 
 
-	//  echo plugin_basename(dirname(__FILE__, 3)) . "/websitino/languages/" ;
+	//  echo plugin_basename(dirname(__FILE__, 3)) . "/websitinu/languages/" ;
 ?>
 
 
 
 	<div clas="wrap ">
 		<h2 class="mt-4 IRANSansWeb_Bold" style="margin-bottom:8px; font-size: 50px; ">
-			<?php _e('Websitino', 'websitino') ?>
+			<?php _e('Websitinu', 'websitinu') ?>
 		</h2>
 
 		<div class="wrap" style="  padding: 2px; background-color: #A7F590; /* Green */ color: white; margin-bottom: 15px;"> </div>
@@ -36,7 +36,7 @@ function websitino_menu_main_page()
 
 	<div class="container px-4 py-5" id="featured-3">
 		<h2 class="pb-2 border-bottom iranyekanwebmedium">
-			<?php _e('By installing a website plugin, you can easily benefit from the following features:', 'websitino'); ?>
+			<?php _e('By installing a website plugin, you can easily benefit from the following features:', 'websitinu'); ?>
 		</h2>
 		<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 			<div class="feature col">
@@ -49,10 +49,10 @@ function websitino_menu_main_page()
 
 				</div>
 				<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
-					<?php _e('Request online support', 'websitino') ?>
+					<?php _e('Request online support', 'websitinu') ?>
 				</h3>
 				<p>
-					<?php _e('In the latest version of the website plugin, an online chat feature has been added so that you can send your support request directly.', 'websitino') ?>
+					<?php _e('In the latest version of the website plugin, an online chat feature has been added so that you can send your support request directly.', 'websitinu') ?>
 				</p>
 
 			</div>
@@ -68,11 +68,11 @@ function websitino_menu_main_page()
 					</svg>
 				</div>
 				<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
-					<?php _e('Supply Security', 'websitino') ?>
+					<?php _e('Supply Security', 'websitinu') ?>
 
 				</h3>
 				<p>
-					<?php _e('Coding important fables, changing the home page of the site to a unique address, editing HTACCESS files.', 'websitino') ?>
+					<?php _e('Coding important fables, changing the home page of the site to a unique address, editing HTACCESS files.', 'websitinu') ?>
 				</p>
 
 			</div>
@@ -84,10 +84,10 @@ function websitino_menu_main_page()
 					</svg>
 				</div>
 				<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
-					<?php _e('Bootstrap', 'websitino') ?>
+					<?php _e('Bootstrap', 'websitinu') ?>
 				</h3>
 				<p>
-					<?php _e('The latest version of Bootstrap is available for you and you don\'t need any other plugins.', 'websitino') ?>
+					<?php _e('The latest version of Bootstrap is available for you and you don\'t need any other plugins.', 'websitinu') ?>
 				</p>
 
 			</div>
@@ -102,10 +102,10 @@ function websitino_menu_main_page()
 					</svg>
 				</div>
 				<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
-					<?php _e('Dedicated font', 'websitino') ?>
+					<?php _e('Dedicated font', 'websitinu') ?>
 				</h3>
 				<p>
-					<?php _e('We provide exclusive fonts that are very stylish and attractive to you with a legal license.', 'websitino') ?>
+					<?php _e('We provide exclusive fonts that are very stylish and attractive to you with a legal license.', 'websitinu') ?>
 				</p>
 
 			</div>
@@ -120,10 +120,10 @@ function websitino_menu_main_page()
 					</svg>
 				</div>
 				<h3 class="fs-2 iranyekanwebbold text-body-emphasis">
-					<?php _e('Attractive login form', 'websitino') ?>
+					<?php _e('Attractive login form', 'websitinu') ?>
 				</h3>
 				<p>
-					<?php _e('After installing the Websitino plugin, you will have a very attractive login form with your own website design.', 'websitino') ?>
+					<?php _e('After installing the Websitinu plugin, you will have a very attractive login form with your own website design.', 'websitinu') ?>
 				</p>
 
 			</div>
@@ -133,7 +133,7 @@ function websitino_menu_main_page()
 				<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
 			</svg>
 
-			<?php _e('This plugin has a very low size (below 1 MB), a very high speed and is compatible with the latest version of WordPress.', 'websitino') ?>
+			<?php _e('This plugin has a very low size (below 1 MB), a very high speed and is compatible with the latest version of WordPress.', 'websitinu') ?>
 		</p>
 		<?php
 		if (get_bloginfo("language") == 'en-US') {

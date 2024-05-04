@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Websitino\n"
+"Project-Id-Version: Websitinu\n"
 "POT-Creation-Date: 2024-04-20 23:42+0400\n"
 "PO-Revision-Date: 2024-04-20 23:42+0400\n"
 "Last-Translator: \n"
@@ -94,7 +94,7 @@ msgstr "فرم لاگین جذاب"
 
 #: dir/first-page.php:126
 msgid ""
-"After installing the Websitino plugin, you will have a very attractive login "
+"After installing the Websitinu plugin, you will have a very attractive login "
 "form with your own website design."
 msgstr ""
 "بعد از نصب افزونه وبسایتینو شما از فرم ورود بسیار جذاب با طراحی سایت خودتان "
@@ -108,17 +108,17 @@ msgstr ""
 "این پلاگین با حجم بسیار پایین (زیر 1 مگابایت)، سرعت بسیار بالا و هماهنگ با "
 "جدیدترین نسخه وردپرس عرضه شده است."
 
-#: dir/websitino.php:22
+#: dir/websitinu.php:22
 msgid "Thank you for creating with"
 msgstr "سپاسگزاریم از اینکه سایت خود را ساخته اید با"
 
 #. Plugin Name of the plugin/theme
-#: dir/websitino.php:23
-msgid "Websitino"
+#: dir/websitinu.php:23
+msgid "Websitinu"
 msgstr "وبسایتینو"
 
 #. Plugin URI of the plugin/theme
-msgid "https://websitino.com"
+msgid "https://websitinu.com"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -136,7 +136,7 @@ msgid "Ehsan Ghafoori"
 msgstr "احسان غفوری"
 
 #. Author URI of the plugin/theme
-msgid "https://www.websitino.com/"
+msgid "https://www.websitinu.com/"
 msgstr ""
 
 #~ msgid "mymessage1"
