@@ -26,22 +26,13 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly
 require_once plugin_dir_path( __FILE__ ) . "dir/websitinu.php";
 
 
-     function load_text_domain()
-{
-	// load_plugin_textdomain('websitinu', false, '\lang');
-$aa = load_plugin_textdomain( 'websitinu', false, plugin_basename(dirname(__FILE__, 3)) . "/plugins/websitinu_support_plugin/languages/" );
-var_dump( load_plugin_textdomain( 'websitinu', false, plugin_basename(dirname(__FILE__, 3)) . "/plugins/websitinu_support_plugin/languages/" ) );
-
-};
- add_action('plugins_loaded', 'load_text_domain');
-
-
- add_action( 'init', 'wpdocs_load_textdomain' );
- 
 /**
  * Load plugin textdomain.
  */
+
+ add_action( 'init', 'wpdocs_load_textdomain' );
+ 
 function wpdocs_load_textdomain() {
-     $aa =  load_plugin_textdomain( 'websitinu', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
-     var_dump(dirname( plugin_basename( __FILE__ ) ) . '/languages');
+     load_plugin_textdomain( 'websitinu', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+    
 }
