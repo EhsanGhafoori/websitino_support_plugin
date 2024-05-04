@@ -32,9 +32,16 @@ function websitinu_remove_admin_footer()
 		}
 	</style>
 	<span id="footer-websitinu-th">
-		<?php _e("Thank you for creating with", "websitinu") ?>
-		<a style="color: #000; font-family:Righteous-Regular ; text-decoration:none;" target="_blank" href="https://websitinu.com/"><?php _e("Websitinu", "websitinu") ?></a>.
-	</span>
+	<?php
+		if (get_bloginfo("language") == 'en-US') {
+			echo ('	<span id="footer-websitinu-th">
+			<?php _e("Thank you for creating with", "websitinu") ?>
+			<a style="color: #000; font-family:Righteous-Regular ; text-decoration:none;" target="_blank" href="https://websitinu.com/"><?php _e("Websitinu", "websitinu") ?></a>.
+		</span>');
+		} else {
+			echo ('<span id="footer-websitinu-th" class="IRANSansWeb_Bold">سپاسگزاریم از اینکه سایت خود را با <a href="https://websitinu.com/" class="iranyekanwebbold">وبسایتینو</a> ساخته‌اید.');
+		}
+		?>
 
 <?php
 }
