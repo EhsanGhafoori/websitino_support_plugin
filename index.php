@@ -8,7 +8,7 @@
  * Author URI: https://www.websitinu.com/
  * Author: Ehsan Ghafoori
  * Text Domain: Websitinu
- * Requires PHP: 5.5
+ * Requires PHP: 5.6
  * Domain Path: /languages
  * Update URI: https://websitinu.ir/
  * License: GPL2
