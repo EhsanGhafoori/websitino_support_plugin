@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: websitinu\n"
-"POT-Creation-Date: 2024-05-04 16:44+0400\n"
+"POT-Creation-Date: 2024-05-22 00:15+0400\n"
 "PO-Revision-Date: 2024-04-20 17:32+0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-#: dir/first-page.php:5 dir/first-page.php:30 dir/websitinu.php:36
+#: dir/first-page.php:5 dir/first-page.php:30 dir/websitinu.php:39
 msgid "Websitinu"
 msgstr ""
 
@@ -82,13 +82,17 @@ msgid ""
 "login form with your own website design."
 msgstr ""
 
-#: dir/first-page.php:136
+#: dir/first-page.php:138
 msgid ""
 "This plugin has a very low size (below 1 MB), a very high speed and is "
 "compatible with the latest version of WordPress."
 msgstr ""
 
-#: dir/websitinu.php:35
+#: dir/first-page.php:143
+msgid "Added Arabic language along with fixing some small bugs"
+msgstr ""
+
+#: dir/websitinu.php:38
 msgid "Thank you for creating with"
 msgstr ""
 
