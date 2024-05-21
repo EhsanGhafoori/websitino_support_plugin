@@ -29,7 +29,7 @@ require_once plugin_dir_path( __FILE__ ) . "dir/websitinu.php";
 /**
  * Load plugin textdomain.
  */
-
+add_action( 'plugins_loaded', 'wpdocs_load_textdomain' );
  add_action( 'init', 'wpdocs_load_textdomain' );
  
 function wpdocs_load_textdomain() {
