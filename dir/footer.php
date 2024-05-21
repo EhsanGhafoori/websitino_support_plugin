@@ -38,7 +38,7 @@ function websitinu_footer_first_page()
                     Websitinu
                 </a>
             </span>
-            © 2015
+            © 2024
         </p>
     <?php
     } elseif (get_bloginfo("language") == 'ar-OM') {
@@ -56,7 +56,7 @@ function websitinu_footer_first_page()
                     وبسایتینو
                 </a>
             </span>
-            © 2021
+            © 2024
         </p>
     <?php
     } else {
@@ -77,7 +77,7 @@ function websitinu_footer_first_page()
                     وبسایتینو
                 </a>
             </span>
-            © 2021
+            © 2024
         </p>
 <?php
     }
