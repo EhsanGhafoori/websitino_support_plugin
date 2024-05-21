@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-04 16:44+0400\n"
+"PO-Revision-Date: 2024-05-21 23:03+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar_OM\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+#. Plugin Name of the plugin/theme
+#: dir/first-page.php:5 dir/first-page.php:30 dir/websitinu.php:36
+msgid "Websitinu"
+msgstr "وبسایتینو"
+
+#: dir/first-page.php:39
+msgid ""
+"By installing a website plugin, you can easily benefit from the following "
+"features:"
+msgstr ""
+"من خلال تثبيت مكون إضافي لموقع الويب، يمكنك الاستفادة بسهولة من الميزات "
+"التالية:"
+
+#: dir/first-page.php:52
+msgid "Request online support"
+msgstr "طلب الدعم عبر الإنترنت"
+
+#: dir/first-page.php:55
+msgid ""
+"In the latest version of the website plugin, an online chat feature has been "
+"added so that you can send your support request directly."
+msgstr ""
+"في أحدث إصدار من البرنامج الإضافي لموقع الويب، تمت إضافة ميزة الدردشة عبر "
+"الإنترنت حتى تتمكن من إرسال طلب الدعم الخاص بك مباشرة."
+
+#: dir/first-page.php:71
+msgid "Supply Security"
+msgstr "أمن الإمدادات"
+
+#: dir/first-page.php:75
+msgid ""
+"Coding important fables, changing the home page of the site to a unique "
+"address, editing HTACCESS files."
+msgstr ""
+"ترميز الخرافات المهمة، وتغيير الصفحة الرئيسية للموقع إلى عنوان فريد، وتحرير "
+"ملفات HTACCESS."
+
+#: dir/first-page.php:87
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: dir/first-page.php:90
+msgid ""
+"The latest version of Bootstrap is available for you and you don't need any "
+"other plugins."
+msgstr "أحدث إصدار من Bootstrap متاح لك ولا تحتاج إلى أي مكونات إضافية أخرى."
+
+#: dir/first-page.php:105
+msgid "Dedicated font"
+msgstr "الخط المخصص"
+
+#: dir/first-page.php:108
+msgid ""
+"We provide exclusive fonts that are very stylish and attractive to you with "
+"a legal license."
+msgstr "نحن نقدم خطوطًا حصرية أنيقة جدًا وجذابة لك بترخيص قانوني."
+
+#: dir/first-page.php:123
+msgid "Attractive login form"
+msgstr "نموذج تسجيل دخول جذاب"
+
+#: dir/first-page.php:126
+msgid ""
+"After installing the Websitinu plugin, you will have a very attractive login "
+"form with your own website design."
+msgstr ""
+"بعد تثبيت البرنامج الإضافي Websitinu، سيكون لديك نموذج تسجيل دخول جذاب "
+"للغاية مع تصميم موقع الويب الخاص بك."
+
+#: dir/first-page.php:136
+msgid ""
+"This plugin has a very low size (below 1 MB), a very high speed and is "
+"compatible with the latest version of WordPress."
+msgstr ""
+"حجم هذا المكون الإضافي صغير جدًا (أقل من 1 ميجابايت)، وسرعته عالية جدًا "
+"ومتوافق مع أحدث إصدار من WordPress."
+
+#: dir/websitinu.php:35
+msgid "Thank you for creating with"
+msgstr "شكرا لك على الإنشاء مع"
+
+#. Plugin URI of the plugin/theme
+msgid "https://websitinu.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A comprehensive plugin to support your website and also guarantee the "
+"security of WordPress websites with legal Persian fonts (if the plugin is "
+"disabled, the security of the website is not guaranteed)"
+msgstr ""
+"مكون إضافي شامل لدعم موقع الويب الخاص بك وكذلك ضمان أمان مواقع WordPress مع "
+"الخطوط الفارسية القانونية (إذا تم تعطيل المكون الإضافي، فلا يتم ضمان أمان "
+"موقع الويب)"
+
+#. Author of the plugin/theme
+msgid "Ehsan Ghafoori"
+msgstr "احسان غفوری"
+
+#. Author URI of the plugin/theme
+msgid "https://www.websitinu.com/"
+msgstr ""
